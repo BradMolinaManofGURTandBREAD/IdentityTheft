@@ -1,6 +1,6 @@
 #topNav {
   background: black;
-  box-shadow: 0px 1px 10px 10px lightblack;
+  box-shadow: 0px 1px 10px 10px green;
   height: auto;
   text-align: center;
   width: 100%;
@@ -12,12 +12,13 @@
 {
   color: white;
   display: inline-block;
-  height: 60px;
-  line-height: 60px;
+  height: 100px;
+  line-height: 100px;
   margin: 0px;
   padding: 0px 15px;
   text-decoration: none;
   transition: color 0.3s ease-in;
+  font-family: 'Source Code Pro', monospace;
 }
 #topNav > ul > li > a:hover {
   color: lightgrey;
